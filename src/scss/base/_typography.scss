@@ -1,0 +1,50 @@
+body{
+    font-family: $primary-font;
+    color:$primary-text-color;
+}
+
+h3{
+font-size: 28px;
+line-height: 33px;
+@include mq('tablet-medium',max ){
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+}
+
+h4{
+    font-size: 24px;
+    line-height: 28px;
+
+    @include mq('tablet-medium',max ){
+        font-size: 20px;
+        line-height: 24px;
+      }
+}
+
+h6{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+p,.text-sm{
+    font-size: 16px;
+    line-height: 24px;
+
+    @include mq('tablet-medium',max ){
+        font-size: 14px;
+        line-height: 20px;
+      }
+}
+
+a{
+    font-size: 16px;
+    line-height: 24px;
+
+    @include mq('tablet-medium',max ){
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+}

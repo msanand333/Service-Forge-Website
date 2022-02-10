@@ -1,0 +1,90 @@
+:root {
+    --primary-background-color: #fff;
+    --primary-text-color: #000000;
+    --secondary-text-color: #4b4b4b;
+    --tertiary-text-color: #036CCC;
+    --primary-btn-bg: #fff;
+    --primary-btn-text: #000;
+    --primary-btn-border: #000;
+    --secondary-btn-bg: #036CCC;
+    --secondary-btn-text: #fff;
+    --default-border-color: #E5E7EB;
+    --default-link-color: #036CCC;
+    --svg-path: #036CCC;
+}
+
+.hvac {
+    --tertiary-text-color: #036CCC;
+    --secondary-btn-bg: #036CCC;
+    --default-link-color: #036CCC;
+    --svg-path: #036CCC;
+}
+
+.home-services {
+    --tertiary-text-color: #F97903;
+    --secondary-btn-bg: #F97903;
+    --default-link-color: #F97903;
+    --svg-path: #F97903;
+}
+
+.plumbing {
+    --tertiary-text-color: #377E62;
+    --secondary-btn-bg: #377E62;
+    --default-link-color: #377E62;
+    --svg-path: #377E62;
+}
+
+.electrical {
+    --tertiary-text-color: #376D7E;
+    --secondary-btn-bg: #376D7E;
+    --default-link-color: #376D7E;
+    --svg-path: #376D7E;
+}
+
+.construction {
+    --tertiary-text-color: #FF7B01;
+    --secondary-btn-bg: #FF7B01;
+    --default-link-color: #FF7B01;
+    --svg-path: #FF7B01;
+}
+
+
+//svg
+$svg-path:var(--svg-path);
+
+//Links
+$default-link-color:var(--default-link-color);
+
+//Backgrounds
+$primary-background-color:var(--primary-background-color);
+
+//Border Color
+$default-border-color:var(--default-border-color);
+
+//Fonts
+$primary-font:'Lato',
+Helvetica,
+Sans-serif;
+
+//Container sizes
+$max-width: 900px;
+
+//Background Colors
+$primary-background-color:var(--primary-background-color);
+
+
+//Text colors
+$primary-text-color:var(--primary-text-color);
+$secondary-text-color:var(--secondary-text-color);
+$tertiary-text-color:var(--tertiary-text-color);
+
+//Button colors
+$primary-btn-bg:var(--primary-btn-bg);
+$primary-btn-text:var(--primary-btn-text);
+$primary-btn-border:var(--primary-btn-border);
+
+$secondary-btn-bg:var(--secondary-btn-bg);
+$secondary-btn-text:var(--secondary-btn-text);
+
+//Colors
+$grey:#666666

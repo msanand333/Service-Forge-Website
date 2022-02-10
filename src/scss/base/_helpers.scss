@@ -1,0 +1,60 @@
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+
+.container {
+  max-width: $max-width; 
+  margin:0 auto; 
+  padding:0 20px;
+  width: 100%; 
+}
+
+.icon-wrapper{
+  vertical-align: middle;
+  display: inline-block;
+
+  svg{
+    vertical-align: middle;
+    
+    path{
+      fill:$svg-path;
+    }
+  }
+}
+
+.no-style{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.link{
+  color:$default-link-color;
+}
+
+.hide{
+  display: none !important;
+}
+
+.hide-in-mobile{
+
+  @include mq('tablet-medium',max ){
+    display: none !important;
+  }
+}
+
+.hide-in-desktop{
+  @include mq('tablet-medium',min ){
+    display: none !important;
+  }
+}
+
+
+
+

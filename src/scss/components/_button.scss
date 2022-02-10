@@ -1,0 +1,41 @@
+%btn{
+    font-family: inherit;
+}
+.btn {
+    &-primary {
+        @extend %btn;
+        font-size: 24px;
+        line-height: 35px;
+        font-weight: 500;
+        outline: none;
+        // border: none;
+        border: 2px solid $primary-btn-border;
+        color: $primary-btn-text;
+        background-color: $primary-btn-bg;
+        padding: 9px 45px;
+        border-radius: 100px;
+
+        @include mq('tablet-medium',max ){
+            font-size: 16px;
+            line-height: 24px;
+            padding: 5px 25px;
+            border-width: 1px;
+
+        }
+    }
+
+    &-secondary {
+        @extend %btn;
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 500;
+        border: none;
+        outline: none;
+        color: $secondary-btn-text;
+        background-color: $secondary-btn-bg;
+        padding: 12px 47px;
+        border-radius: 8px;
+
+    }
+
+}
