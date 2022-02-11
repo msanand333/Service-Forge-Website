@@ -16,6 +16,7 @@ import "../scss/home.scss";
 
 
 const book = document.querySelector('#book');
+const bookMobile = document.querySelector('#book-mobile');
 const aboutIndustry = document.querySelector('#about-industry');
 const setmoreIframeWrapper = document.querySelector('#setmore-iframe-wrapper');
 const slotListNode = document.querySelectorAll('.slot-list .days');
@@ -23,6 +24,11 @@ const viewSlot=document.querySelector('#view-slot');
 const slotDropdown=document.querySelector('#slot-dropdown');
 
 book.addEventListener('click', () => {
+    aboutIndustry.classList.add('hide');
+    setmoreIframeWrapper.classList.remove('hide');
+})
+
+bookMobile.addEventListener('click', () => {
     aboutIndustry.classList.add('hide');
     setmoreIframeWrapper.classList.remove('hide');
 })

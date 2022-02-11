@@ -11,8 +11,12 @@
         padding: 36px 24px;
 
         .right-section {
-            button {
+            .btn-primary{
                 border: none;
+            }
+            button {
+               
+              
 
                 &:not(:last-child) {
                     margin-right: 24px;
