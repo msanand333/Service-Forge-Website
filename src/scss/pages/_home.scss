@@ -97,6 +97,10 @@
                 border-radius: 14px;
                 padding: 24px;
 
+                @include mq('tablet-medium', max) {
+                   padding: 15px;
+                }
+
 
                 h6 {
                     margin-bottom: 12px;
