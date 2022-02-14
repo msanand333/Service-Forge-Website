@@ -197,12 +197,16 @@
                         }
 
                         .selected-slot {
-                            margin-right: 20px;
+                            margin-right: 40px;
                             line-height: 1;
 
-                            .link {
-                                vertical-align: baseline;
+                            @include mq('phone', max) {
                                 margin-right: 20px;
+                            }
+
+                            .link {
+                                vertical-align: middle;
+                                margin-right: 5px;
                             }
 
                             >* {
@@ -227,15 +231,22 @@
                             // transform: rotateX(180deg);
                             svg{
                                 vertical-align: middle;
+                                width: 15px;
+                                height: auto;
                             }
                         }
 
                     }
 
                     .slot-list {
-                        width: 300px;
+                        width: 270px;
                         display: none;
                         padding-left: 30px;
+                        @include mq('phone', max) {
+                            width: 250px;
+                        }
+
+                      
 
                         li {
                             display: flex;
