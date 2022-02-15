@@ -33,6 +33,11 @@ module.exports = {
             template: 'src/pages/construction.html',
             chunks: ['index']
         }),
+        new HtmlWebpackPlugin({
+            filename: 'serviceforge.html',
+            template: 'src/pages/serviceforge.html',
+            chunks: ['index']
+        }),
   
     ],
 

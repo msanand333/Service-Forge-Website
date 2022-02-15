@@ -48,6 +48,14 @@
     --svg-path: #FF7B01;
 }
 
+.service-forge {
+    --tertiary-text-color: #FC7303;
+    --secondary-btn-bg: #FC7303;
+    --default-link-color: #FC7303;
+    --svg-path: #FC7303;
+}
+
+
 
 //svg
 $svg-path:var(--svg-path);
