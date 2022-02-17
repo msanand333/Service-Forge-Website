@@ -9,28 +9,28 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            filename: 'hvac.html',
-            template: 'src/pages/hvac.html',
+            filename: 'ductsinarow.html',
+            template: 'src/pages/ductsinarow.html',
             chunks: ['index']
         }),
         new HtmlWebpackPlugin({
-            filename: 'home-services.html',
-            template: 'src/pages/home-services.html',
+            filename: 'helpinghand.html',
+            template: 'src/pages/helpinghand.html',
             chunks: ['index']
         }),
         new HtmlWebpackPlugin({
-            filename: 'plumbing.html',
-            template: 'src/pages/plumbing.html',
+            filename: 'theflush.html',
+            template: 'src/pages/theflush.html',
             chunks: ['index']
         }),
         new HtmlWebpackPlugin({
-            filename: 'electrical.html',
-            template: 'src/pages/electrical.html',
+            filename: 'nutsnvolts.html',
+            template: 'src/pages/nutsnvolts.html',
             chunks: ['index']
         }),
         new HtmlWebpackPlugin({
-            filename: 'construction.html',
-            template: 'src/pages/construction.html',
+            filename: 'nailedit.html',
+            template: 'src/pages/nailedit.html',
             chunks: ['index']
         }),
         new HtmlWebpackPlugin({
